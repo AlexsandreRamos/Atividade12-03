@@ -13,14 +13,17 @@ public class _FOR {
        
        Scanner teclado = new Scanner(System.in);
        
-       System.out.println("ATIVIDADE 1\n");
+        System.out.println("ATIVIDADE 1\n");
         System.out.println("Digite um número:");
        int num1 = teclado.nextInt();
-        System.out.println("Os números íapares até chegar nele são:\n");
+       int soma25 = 0;
+       System.out.println("Os números íapares até chegar nele são:\n");
        for (int a = 1; a < num1 ; a += 2){
+          soma25 += a;
            System.out.println(a);
            
        }
+         System.out.println("A soma deles são:" + soma25);
          
        
        /////////////////////////////////////////////////////////////////
